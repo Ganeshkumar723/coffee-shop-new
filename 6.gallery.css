@@ -40,7 +40,7 @@
 .galleryBox {
     /* background-color: #dfbd4d; */
     width: 100%;
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
     
     
 
@@ -50,6 +50,7 @@
 .galleryBox .cardHeader img{
     height:25rem ;
     width: 37.5rem;
+    padding: 1rem;
 
 }
 

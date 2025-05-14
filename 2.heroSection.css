@@ -16,6 +16,7 @@
     background-image:url(./assets/images/home-bg.jpg) ;
     background-size: cover;  
     background-position: center;
+    background-repeat: no-repeat;
     
    
    
@@ -33,7 +34,7 @@
     /* background-color: rgb(255, 255, 255); */
     display: grid;
     grid-template-columns: 1fr;
-    padding: 23rem 0rem;
+   
 
 }
 
@@ -49,6 +50,8 @@
 .heroBox {
     /* background-color: #dfbd4d; */
     width: 100%;
+     padding: 32rem 0rem 24rem 0rem;
+    
     
 }
 
@@ -56,11 +59,11 @@
 .heroBox h1{
     color: #000000;
     font-family:"Merienda", serif;
-    font-size:7rem ;
+    font-size:7.5rem ;
     font-weight: 800;
-    margin-bottom:1rem ;
+    margin-bottom:2rem ;
     text-align: center;
-    line-height: 1;
+    line-height: 5rem;
 }
 .heroBox p{
     color: #000000;

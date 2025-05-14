@@ -1,0 +1,111 @@
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr;
+        padding: 0rem 1rem;
+    }
+
+    /*hero section*/
+    .heroBox {
+        padding: 20rem 0rem 15rem 0rem;
+        max-width: 100%;
+    }
+
+    .heroBox h1 {
+        font-size: 4.5rem;
+        line-height: 4rem;
+    }
+
+    .heroBox button {
+        background-color: rgb(119, 85, 43);
+        color: white;
+        margin-top: 2rem;
+        padding: 0.5rem 1.5rem;
+        font-size: 1.6rem;
+    }
+
+    /*menu section*/
+    .menuBox img {
+        /* background-color: aqua; */
+        height: 35rem;
+        width: auto;
+        margin-bottom: 3rem;
+    }
+
+    .menuConBox .cardFooter button {
+        background-color: rgb(119, 85, 43);
+        color: white;
+        padding: 0.5rem 1.5rem;
+        font-size: 1.6rem;
+    }
+
+    /*popular section*/
+    .popularBox .cardHeader img {
+        height: 18rem;
+        width: auto;
+        margin-bottom: 2rem;
+
+    }
+
+    .galleryBox .cardHeader img {
+        height: 30rem;
+        width: 50rem;
+        padding: 0;
+
+
+    }
+
+    .teamBox .cardHeader img{
+    height: 28rem;
+    width: auto;
+    margin-bottom: 2rem;
+  
+}
+
+.contactsImgBox img{
+    height: 50rem;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (min-width: 577px) and (max-width: 768px) */
+@media (width >=577px) and (width <=768px) {
+    /* write code here */
+}
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (min-width: 769px) and (max-width: 992px) */
+@media (width >=769px) and (width <=992px) {
+    /* write code here */
+}
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (min-width: 993px) and (max-width: 1200px) */
+@media (width >=993px) and (width <=1200px) {
+    /* write code here */
+}
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/* @media (min-width: 1200px)  */
+@media (width >=1200px) {
+    /* write code here */
+}

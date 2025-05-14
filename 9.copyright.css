@@ -13,7 +13,7 @@
 
 /* step -2 - component */
 .copyright{
-    /* background-color: rgb(241, 11, 11);   */
+    background-color: rgb(255, 255, 255);  
    
 }
 
@@ -25,7 +25,7 @@
 
 /* step -4 - row */
 .copyrightBody {
-    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -45,11 +45,11 @@
 .copyrightBox p{
     color: #000000;
     font-family: var(--ffSecondary);
-    font-size:2.5rem;
-    line-height: 1;
+    font-size:2rem;
+    line-height: 1.5;
     font-weight: 300;
     text-transform: capitalize;
-    margin-bottom: 2rem; 
+    margin-bottom: 3rem; 
     text-align: center;
 }
 

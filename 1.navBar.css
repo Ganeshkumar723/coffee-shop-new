@@ -1,0 +1,89 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.navBar {
+    background-color: rgb(255, 255, 255); 
+   
+}
+
+/* step -3 - componentContainer */
+.navBarContainer {
+    /* background-color: rgb(255, 100, 100); */
+
+}
+
+/* step -4 - row */
+.navBarBody {
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* step -5 - column */
+.logoBlock {
+    /* background-color: #cffcbe; */
+   
+}
+
+.linkBlock {
+    /* background-color: #8fe8f8; */
+
+}
+
+/* step -6 - subColumn */
+.logoBox {
+    /* background-color: #ffffff; */
+    height: 100%;
+    width: 100%;
+    
+}
+
+.linkBox {
+    /* background-color: #f57070; */
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+/* step -7 - contentContainer */
+.logoBox img {
+    /* background-color: #ac0808; */
+    height: 50px;
+    width: auto;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    
+    
+}
+.navlinks {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: var(--darkColor);
+   font-family:"Nunito", serif;
+   font-size: 2rem;
+   padding: 3rem 0rem;
+   margin-right: 3.5rem;
+   font-weight: 400;
+   
+}
+
+li:hover{
+    background-color: rgb(133, 97, 54);
+    color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    
+}
+
+

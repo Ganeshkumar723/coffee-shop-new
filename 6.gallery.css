@@ -1,0 +1,59 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.gallery {
+    background-color: rgb(255, 255, 255);  
+
+}
+
+/* step -3 - componentContainer */
+.galleryContainer {
+    /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.galleryBody {
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+/* step -5 - column */
+.galleryBlock {
+    /* background-color: #fc03c6; */
+
+}
+
+/* step -6 - subColumn */
+.galleryBox {
+    /* background-color: #dfbd4d; */
+    width: 100%;
+    padding: 1.5rem;
+    
+    
+
+}
+
+/* step -7 - contentContainer */
+.galleryBox .cardHeader img{
+    height:25rem ;
+    width: 37.5rem;
+
+}
+
+/* #gallery2{
+    height: 25rem;
+    width: 37.5rem;
+} */

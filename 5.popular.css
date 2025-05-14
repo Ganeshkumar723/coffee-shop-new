@@ -1,0 +1,69 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.popular {
+    background-color: rgb(255, 255, 255);  
+   
+}
+
+/* step -3 - componentContainer */
+.popularContainer {
+    /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.popularBody {
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* step -5 - column */
+.popularBlock {
+    /* background-color: #fc03c6; */
+    display: flex;  /* without this wont work */
+    align-items: center;  /* top & bottom Alignment */
+    justify-content: center; /* left & right Alignment */
+   
+}
+
+/* step -6 - subColumn */
+.popularBox {
+    /* background-color: #dfbd4d; */
+    display: flex;
+    flex-direction: column; /* makes top to bottom align */
+    align-items: center;   /* Behaves like a justify-content */
+    justify-content: center;  /* Behaves like a align-items */
+    text-align: center; /* text aligned in center */
+    
+}
+
+/* step -7 - contentContainer */
+.popularBox .cardHeader img {
+    height: 280px;
+    width: auto;
+    margin-bottom: 1rem;
+   
+}
+
+.popularBox .cardMain p{
+    color: #000000;
+    font-family: var(--ffSecondary);
+    font-size:2rem;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 2rem; 
+
+}

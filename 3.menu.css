@@ -1,0 +1,96 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.menu {
+    background-color: rgb(255, 255, 255);  
+   
+}
+
+/* step -3 - componentContainer */
+.menuContainer {
+    /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.menuBody {
+    /* background-color: rgb(255, 255, 255); */
+
+}
+
+/* step -5 - column */
+.menuBlock {
+    /* background-color: #fc03c6; */
+   
+}
+
+/* step -6 - subColumn */
+.menuBox{
+    /* background-color: #dfbd4d; */
+}
+.menuConBox {
+    /* background-color: #dfbd4d; */
+    display: flex;
+    flex-direction: column; /* makes top to bottom align */
+    align-items: start;   /* Behaves like a justify-content */
+    justify-content: center;  /* Behaves like a align-items */
+    text-align: start; /* text aligned in center */
+    margin-left: 2rem;
+    
+}
+
+/* step -7 - contentContainer */
+.menuBox img{
+    /* background-color: aqua; */
+    height: 550px;
+    width: auto;
+    margin-bottom: 5rem;
+}
+
+.menuConBox .cardHeader h1{
+    /* background-color: aquamarine; */
+    color: #000000;
+    font-family:"Merienda", serif;
+    font-size:4rem ;
+    font-weight: 900;
+    margin-bottom:2rem ;
+    line-height: 1.2;
+
+}
+.menuConBox .cardMain{
+    /* background-color: rgb(80, 128, 112); */
+    color: #000000;
+    font-family: var(--ffSecondary);
+    font-size:var(--regularFont) ;
+    line-height: 1.5;
+    width: 80%;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+.menuConBox .cardFooter button{
+    /* background-color: rgb(28, 70, 56); */
+    background-color: rgb(119, 85, 43);
+    color: white;
+    padding: 1rem 2.5rem;
+    border: none;
+    font-family:"Nunito", serif ;
+    font-size: 2rem;
+}
+
+.menuConBox .cardFooter button:hover{
+    background-color: rgb(5, 5, 5);
+    /* background-color: rgb(119, 85, 43); */
+    color: white;
+    
+}

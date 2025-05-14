@@ -1,0 +1,103 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.facility {
+    background-color: rgb(255, 255, 255);  
+   
+}
+
+/* step -3 - componentContainer */
+.facilityContainer {
+    /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.facilityBody {
+    background-color: rgb(252, 252, 252);
+
+}
+.headingBody {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem 2rem;
+
+}
+/* step -5 - column */
+.facilityBlock {
+    /* background-color: #fc03c6; */
+   
+}
+.headingBlock {
+    /* background-color: #fc03c6; */
+   
+}
+
+/* step -6 - subColumn */
+.facilityBox {
+    /* background-color: #dfbd4d; */
+    
+}
+.headingBox {
+    /* background-color: #dfbd4d; */
+    
+}
+
+/* step -7 - contentContainer */
+
+.headingBox img{
+    background-color: white;
+    height: 40px;
+}
+
+
+.headingBox  h1{
+    color: #000000;
+    font-family:"Merienda", serif;
+    font-size:4rem ;
+    font-weight: 900;
+    margin-bottom:2rem ;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.facilityBox .cardHeader {
+    /* background-color: #000000; */
+    margin-bottom: 2rem; 
+}
+
+.facilityBox .cardMain h1{
+    /* background-color: #dfbd4d; */
+    color: #000000;
+    font-family: var(--ffSecondary);
+    font-size:2rem;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem; 
+
+}
+
+.facilityBox .cardMain p{
+    /* background-color: #dfbd4d; */
+    color: #000000;
+    font-family: var(--ffSecondary);
+    font-size:1.6rem;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 2rem; 
+    word-spacing: 7px;
+    line-height: 1.5;
+}

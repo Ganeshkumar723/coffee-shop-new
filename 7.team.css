@@ -1,0 +1,62 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.team {
+    background-color: rgb(255, 255, 255);  
+   
+}
+
+/* step -3 - componentContainer */
+.teamContainer {
+    /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.teamBody {
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* step -5 - column */
+.teamBlock {
+    /* background-color: #fc03c6; */
+   
+}
+
+/* step -6 - subColumn */
+.teamBox {
+    /* background-color: #dfbd4d; */
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+/* step -7 - contentContainer */
+.teamBox .cardHeader img{
+    height: 35rem;
+    width: auto;
+    margin-bottom: 2rem;
+  
+}
+.teamBox .cardMain p{
+    color: #000000;
+    font-family: var(--ffSecondary);
+    font-size:2rem;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 2rem; 
+}
+

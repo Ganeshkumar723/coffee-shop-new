@@ -1,0 +1,156 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.contacts{
+    /* background-color: rgb(241, 11, 11);   */
+   
+}
+
+/* step -3 - componentContainer */
+.contactsContainer {
+    /* background-color: rgb(91, 226, 12); */
+
+}
+
+/* step -4 - row */
+.contactsBody {
+    /* background-color: rgb(228, 156, 156); */
+
+}
+.contactsIconsBody {
+    /* background-color: rgb(163, 248, 244); */
+
+}
+
+/* step -5 - column */
+.contactsBlock {
+    /* background-color: #fc03c6; */
+
+}
+
+/* step -6 - subColumn */
+.contactsImgBox {
+    /* background-color: #dfbd4d; */
+    width: 100%;
+    
+}
+
+
+.contactsIconsBox {
+    /* background-color: #dfbd4d; */
+    width: 100%;
+    
+}
+
+/* step -7 - contentContainer */
+
+
+/* image css */
+.contactsImgBox img{
+    height: 70rem;
+}
+
+/* form css */
+
+form{
+    /* background-color: rgb(206, 21, 21); */
+    border: 2px solid black;
+    padding: 2rem 3rem;
+}
+
+.formHead h2{
+    /* background-color: aqua; */
+    color: #000000;
+    font-family: var(--ffSecondary);
+    font-size:4rem;
+    line-height: 1;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem; 
+
+}
+.nameinput input{
+    /* background-color: blueviolet; */
+    padding: 2rem 3rem;
+    font-size: 2.5rem;
+    font-family: var(--ffSecondary);
+    margin-bottom: 3rem;
+}
+.numberinput input{
+    /* background-color: blueviolet; */
+    padding: 2rem 3rem;
+    font-size: 2.5rem;
+    font-family: var(--ffSecondary);
+    margin-bottom: 3rem;
+}
+
+form button{
+    background-color: rgb(119, 85, 43);
+    color: white;
+    margin-bottom: 2rem;
+    padding: 1.5rem 3rem;
+    border: none;
+    font-family:"Nunito", serif ;
+    font-size: 2rem;
+}
+form button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+   
+}
+
+
+/* icons css */
+.contactsIconsBox .cardHead {
+    margin: 2rem 0rem;
+}
+
+.contactsIconsBox .cardHead i{
+    background-color: rgb(80, 70, 44);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    /* padding: 2rem; */
+    height: 7rem;
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon2,#icon3{
+    margin-bottom: 4rem;
+}
+
+.contactsIconsBox .cardMain h2{
+    color: #000000;
+    font-family: var(--ffSecondary);
+    font-size:2.5rem;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem; 
+   
+}
+.contactsIconsBox .cardMain p{
+    color: #000000;
+    font-family: var(--ffSecondary);
+    font-size:2rem;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 2rem; 
+   
+}

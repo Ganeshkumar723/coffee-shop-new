@@ -37,7 +37,7 @@
     .menuBox img {
         /* background-color: aqua; */
         height: 35rem;
-        width: auto;
+        width: 100%;
         margin-bottom: 3rem;
     }
 

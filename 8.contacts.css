@@ -34,24 +34,32 @@
 }
 
 /* step -5 - column */
-.contactsBlock {
-    /* background-color: #fc03c6; */
-
+.contactsImgBlock {
+    /* background-color: #dfbd4d; */
+      
 }
-
+.contactsformBlock{
+    /* background-color: #dfbd4d; */
+}
+.contactsIconsBlock {
+    /* background-color: #dfbd4d; */
+     
+}
 /* step -6 - subColumn */
 .contactsImgBox {
     /* background-color: #dfbd4d; */
-    width: 100%;
-    
+      width: 100%;
 }
-
-
+.contactsformBox{
+    /* background-color: #dfbd4d; */
+    width: 100%;
+}
 .contactsIconsBox {
     /* background-color: #dfbd4d; */
     width: 100%;
-    
+     
 }
+
 
 /* step -7 - contentContainer */
 

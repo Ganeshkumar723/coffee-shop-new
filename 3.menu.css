@@ -42,10 +42,10 @@
 .menuConBox {
     /* background-color: #dfbd4d; */
     display: flex;
-    flex-direction: column; /* makes top to bottom align */
-    align-items: start;   /* Behaves like a justify-content */
-    justify-content: center;  /* Behaves like a align-items */
-    text-align: start; /* text aligned in center */
+    flex-direction: column; 
+    align-items: start;   
+    justify-content: center;  
+    text-align: start; 
     margin-left: 2rem;
     
 }

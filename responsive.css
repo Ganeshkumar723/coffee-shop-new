@@ -13,8 +13,11 @@
         grid-template-columns: 1fr;
         padding: 0rem 1rem;
     }
-
+    
     /*hero section*/
+     .herosection{
+        width: 100%;
+     }
     .heroBox {
         padding: 20rem 0rem 15rem 0rem;
         max-width: 100%;

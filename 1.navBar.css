@@ -14,15 +14,15 @@
 /* step -2 - component */
 .navBar {
     background-color: rgb(255, 255, 255);
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #ffffff; */
     /* Set your background */
-    z-index: 1000;
+    /* z-index: 1000; */
     /* Make sure it's above other elements */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
     /* Optional shadow */
 
 }

@@ -33,9 +33,16 @@
                                 <img src="./assets/images/logo.png" alt="coffee shop logo"> <!--content-->
                             </figure>
                         </div>
+
                     </div>
                     <div class="linkBlock dflex"> <!--column2-->
-                            <ul class="navlinks"> <!--Subcolumn2-->
+                        <div class="linkBox"> <!--Subcolumn2-->
+                            <input type="checkbox" id="iconToggle">
+                            <label for="iconToggle" class="hamburgerIcon">
+                                <i class="fa-solid fa-bars openIcon"></i>
+                                <i class="fa-solid fa-xmark closeIcon"></i>
+                            </label>
+                            <ul class="navlinks">
                                 <li><a href="#Home">Home</a></li>
                                 <li><a href="#About">About</a></li>
                                 <li><a href="#Menu">Menu</a></li>
@@ -43,6 +50,7 @@
                                 <li><a href="#Team">Team</a></li>
                                 <li><a href="#Contact">Contact</a></li>
                             </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -394,7 +402,7 @@
         </section>
     </main>
     <footer> <!--parentContainer-->
-        <div  class="contacts componentSpacing"> <!--component-->
+        <div class="contacts componentSpacing"> <!--component-->
             <div class="contactsContainer align"> <!--componentContainer-->
                 <div class="headingBody"> <!--row-->
                     <div class="headingBlock dflex"> <!--column-->
@@ -416,7 +424,7 @@
                     </div>
                     <div class="contactsformBlock dflex"> <!--column-->
                         <div class="contactsformBox dflex-col"> <!--subColumn-->
-                            <form  action="">
+                            <form action="">
                                 <div class="formHead">
                                     <h2>book a table</h2>
                                 </div>
@@ -488,9 +496,9 @@
         </div>
         <div class="copyright"> <!--component-->
             <div class="copyrightContainer"> <!--componentContainer-->
-                <div class="copyrightBody"> <!--row-->
-                    <div class="copyrightBlock"> <!--column-->
-                        <div class="copyrightBox"> <!--subColumn-->
+                <div class="copyrightBody grid-1"> <!--row-->
+                    <div class="copyrightBlock dflex"> <!--column-->
+                        <div class="copyrightBox dflex-col"> <!--subColumn-->
                             <p>© copyright @ 2022 by <span>mr. web designer</span> | all rights reserved</p>
                         </div>
                     </div>

@@ -38,6 +38,7 @@
 /* step -6 - subColumn */
 .copyrightBox {
     /* background-color: #dfbd4d; */
+    width: 100%;
     
 }
 
@@ -45,12 +46,12 @@
 .copyrightBox p{
     color: #000000;
     font-family: var(--ffSecondary);
-    font-size:2rem;
+    font-size:1.6rem;
     line-height: 1.5;
     font-weight: 300;
     text-transform: capitalize;
-    margin-bottom: 3rem; 
     text-align: center;
+    text-wrap: wrap;
 }
 
 span{

@@ -14,6 +14,8 @@
         padding: 0rem 1rem;
     }
     
+
+    
     /*hero section*/
      .herosection{
         width: 100%;
@@ -78,6 +80,34 @@
     height: 50rem;
 }
 
+.copyrightBox p{
+    color: #000000;
+    font-family: var(--ffSecondary);
+    font-size:1.2rem;
+    line-height: 1.5;
+}
+
+
+
+ .linkBox .hamburgerIcon {
+    display: block;
+    position: absolute;
+    top: 3.5rem;
+    right: 2rem;
+    cursor: pointer;
+  }
+
+  .navlinks {
+    flex-direction: column;
+     display: none;
+     margin: auto;
+
+ 
+}
+
+#iconToggle:checked ~ .navlinks{
+  display: flex;
+}
 
 
 

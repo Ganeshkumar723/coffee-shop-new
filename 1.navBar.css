@@ -58,7 +58,7 @@
 
 }
 
-.navlinks {
+.linkBox {
     /* background-color: #f57070; */
     width: 100%;
 
@@ -96,4 +96,38 @@ li:hover {
     color: white;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 
+}
+
+
+/* hamburger icon css */
+
+.linkBox #iconToggle {
+  cursor: pointer;
+  display: none;
+}
+
+.linkBox .hamburgerIcon {
+  color: #391700;
+  background-color: white;
+  font-size: 2rem;
+  border: 1.5px solid #d6e8f5;
+  padding: 0.25rem 0.75rem 0.1rem;
+  border-radius: 0.25rem;
+  display: none;
+}
+
+/* Hide both icons initially */
+.hamburgerIcon .openIcon,
+.hamburgerIcon .closeIcon {
+  display: none;
+}
+
+/* Show hamburger (bars) by default */
+#iconToggle:not(:checked) ~ .hamburgerIcon .openIcon {
+  display: inline;
+}
+
+/* Show close (x-mark) when checked */
+#iconToggle:checked ~ .hamburgerIcon .closeIcon {
+  display: inline;
 }

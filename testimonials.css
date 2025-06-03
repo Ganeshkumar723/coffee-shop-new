@@ -1,0 +1,61 @@
+/* HTML STRUCTURE */
+/* Step -1 - parentContainer */
+/* step -2 - component */
+/* step -3 - componentContainer */
+/* step -4 - row */
+/* step -5 - column */
+/* step -6 - subColumn */
+/* step -7 - contentContainer */
+/* step -8 - content */
+
+/* parent Container - default css style */
+
+
+/* step -2 - component */
+.testimonials {
+    background-color: rgb(255, 255, 255);
+  
+
+}
+
+/* step -3 - componentContainer */
+.testimonialsContainer {
+    /* background-color: rgb(255, 100, 100); */
+
+}
+
+/* step -4 - row */
+.testimonialsBody {
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* step -5 - column */
+.testimonialsBlock {
+    /* background-color: #cffcbe; */
+
+}
+
+
+
+/* step -6 - subColumn */
+.testimonialsBox {
+    /* background-color: #ffffff; */
+     background-color: #fff8f2;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    font-size: 1.6rem;
+
+}
+
+
+
+
+/* step -7 - contentContainer */
+
+.testimonialBox h4 {
+    text-align: right;
+    font-style: italic;
+    margin-top: 1rem;
+}

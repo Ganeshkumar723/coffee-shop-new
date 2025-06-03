@@ -17,6 +17,7 @@
     background-size: cover;  
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 10rem; /* enough space to push it down below navbar */
     
    
    
@@ -61,7 +62,7 @@
     font-weight: 800;
     margin-bottom:2rem ;
     text-align: center;
-    line-height: 5rem;
+    line-height: 1.5;
 }
 .heroBox p{
     color: #000000;

@@ -183,24 +183,12 @@
 
 }
 
-/* ✅ Devices below 768px – Only mobile toggle needed */
-@media (max-width: 767px) {
-  .hamburgerIcon {
-    display: block;
+@media screen and (orientation: landscape) and (max-width: 991px) {
+  html {
+    font-size: 52%;
   }
 
-  .navlinks {
-    display: none;
-    flex-direction: column;
-  }
-
-  #iconToggle:checked ~ .hamburgerIcon ~ .navlinks {
-    display: flex;
-  }
-}
-
-/* ✅ Tablet and above (including phone landscape ≥768px) */
-@media (min-width: 768px) {
+  /* ✅ Show hamburger icon properly */
   .hamburgerIcon {
     display: none;
   }
@@ -235,7 +223,7 @@
 
   .navlinks {
     font-size: 1.7rem;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 
   .menuBody, .teamBody, .galleryBody {

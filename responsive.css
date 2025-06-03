@@ -183,33 +183,39 @@
 
 }
 
-/* ✅ Landscape View (Any device sideways) */
-@media screen and (orientation: landscape) {
-  html {
-    font-size: 52%;
-  }
-
-  .heroBox {
-    width: 90%;
-    padding: 18rem 2rem;
+/* ✅ Devices below 768px – Only mobile toggle needed */
+@media (max-width: 767px) {
+  .hamburgerIcon {
+    display: block;
   }
 
   .navlinks {
-    flex-direction: row;
-    font-size: 1.5rem;
+    display: none;
+    flex-direction: column;
   }
 
-  .menuBody, .galleryBody {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  /* Optional: reduce height if too tall for short landscape view */
-  .heroSection {
-    padding-top: 8rem;
-    padding-bottom: 10rem;
+  #iconToggle:checked ~ .hamburgerIcon ~ .navlinks {
+    display: flex;
   }
 }
+
+/* ✅ Tablet and above (including phone landscape ≥768px) */
+@media (min-width: 768px) {
+  .hamburgerIcon {
+    display: none;
+  }
+
+  .navlinks {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #iconToggle {
+    display: none;
+  }
+}
+
 
 
 

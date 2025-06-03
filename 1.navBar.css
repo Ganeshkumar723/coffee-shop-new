@@ -83,6 +83,7 @@
   padding: 3rem 0rem;
   margin-right: 3.5rem;
   font-weight: 400;
+   transition: all 0.3s ease-in-out;
 
 }
 

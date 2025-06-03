@@ -13,13 +13,22 @@
         grid-template-columns: 1fr;
         padding: 0rem 1rem;
     }
-    
 
-    
+    .navBar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: #ffffff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        /* border-bottom: 2px solid red; */
+
+    }
+
     /*hero section*/
-     .herosection{
+    .herosection {
         width: 100%;
-     }
+    }
+
     .heroBox {
         padding: 20rem 0rem 15rem 0rem;
         max-width: 100%;
@@ -70,135 +79,234 @@
 
     }
 
-    .teamBox .cardHeader img{
-    height: 28rem;
-    width: auto;
-    margin-bottom: 2rem;
-  
+    .teamBox .cardHeader img {
+        height: 28rem;
+        width: auto;
+        margin-bottom: 2rem;
+
+    }
+
+    .contactsImgBox img {
+        height: 50rem;
+    }
+
+    .contactsformBox form {
+        /* background-color: rgb(206, 21, 21); */
+        width: 100%;
+        border: 2px solid black;
+        padding: 1rem 1.5rem;
+    }
+
+    .nameinput input {
+        /* background-color: blueviolet; */
+        width: 100%;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .numberinput input {
+        /* background-color: blueviolet; */
+        width: 100%;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+
+    }
+
+    form button {
+        background-color: rgb(119, 85, 43);
+        color: white;
+        margin-bottom: 2rem;
+        padding: 0.5rem 1.5rem;
+        font-size: 2rem;
+    }
+
+    .contactsIconsBox .cardHead i {
+        background-color: rgb(80, 70, 44);
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        border-radius: 50%;
+        /* padding: 2rem; */
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .contactsIconsBox .cardMain h2 {
+
+        font-size: 1.8rem;
+        line-height: 1;
+
+
+    }
+
+    .contactsIconsBox .cardMain p {
+
+        font-size: 1.3rem;
+        line-height: 1;
+
+
+    }
+
+
+
+
+    .copyrightBox p {
+        color: #000000;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        font-weight: 600;
+
+    }
+
+
+
+    .linkBox .hamburgerIcon {
+        display: block;
+        position: absolute;
+        top: 3.5rem;
+        right: 2rem;
+        cursor: pointer;
+    }
+
+    .navlinks {
+        flex-direction: column;
+        display: none;
+        margin: auto;
+
+
+    }
+
+    #iconToggle:checked~.navlinks {
+        display: flex;
+    }
+
+
 }
 
-.contactsImgBox img{
-    height: 50rem;
-}
+/* ✅ Landscape View (Any device sideways) */
+@media screen and (orientation: landscape) {
+  html {
+    font-size: 52%;
+  }
 
-.contactsformBox form{
-    /* background-color: rgb(206, 21, 21); */
-     width: 100%;
-    border: 2px solid black;
-    padding: 1rem 1.5rem;
-}
-
-.nameinput input{
-    /* background-color: blueviolet; */
-     width: 100%;
-    padding: 1rem 2rem;
-    font-size: 1.5rem;
-}
-
-.numberinput input{
-    /* background-color: blueviolet; */
-    width: 100%;
-    padding: 1rem 2rem;
-    font-size: 1.5rem;
-    
-}
-form button{
-    background-color: rgb(119, 85, 43);
-    color: white;
-    margin-bottom: 2rem;
-    padding: 0.5rem 1.5rem;
-    font-size: 2rem;
-}
-
-.contactsIconsBox .cardHead i{
-    background-color: rgb(80, 70, 44);
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-    border-radius: 50%;
-    /* padding: 2rem; */
-    height: 5rem;
-    width: 5rem;
-}
-
-.contactsIconsBox .cardMain h2{
-   
-    font-size:1.8rem;
-    line-height: 1;
-   
-   
-}
-.contactsIconsBox .cardMain p{
-    
-    font-size:1.3rem;
-    line-height: 1;
-    
-   
-}
-
-
-
-
-.copyrightBox p{
-    color: #000000;
-    font-size:0.9rem;
-    line-height: 1.5;
-    font-weight: 600;
-    
-}
-
-
-
- .linkBox .hamburgerIcon {
-    display: block;
-    position: absolute;
-    top: 3.5rem;
-    right: 2rem;
-    cursor: pointer;
+  .heroBox {
+    width: 90%;
+    padding: 18rem 2rem;
   }
 
   .navlinks {
-    flex-direction: column;
-     display: none;
-     margin: auto;
+    flex-direction: row;
+    font-size: 1.5rem;
+  }
 
- 
+  .menuBody, .galleryBody {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  /* Optional: reduce height if too tall for short landscape view */
+  .heroSection {
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+  }
 }
 
-#iconToggle:checked ~ .navlinks{
-  display: flex;
-}
 
 
-
-
-
-
-
-
-
-}
 
 /* Medium devices (tablets, upto 768px and above) */
 /* @media (min-width: 577px) and (max-width: 768px) */
 @media (width >=577px) and (width <=768px) {
     /* write code here */
+      html {
+    font-size: 55%; /* Slightly smaller */
+  }
+
+  .heroBox {
+    width: 80%;
+    padding: 20rem 2rem;
+  }
+
+  .navlinks {
+    font-size: 1.7rem;
+    flex-direction: column;
+  }
+
+  .menuBody, .teamBody, .galleryBody {
+    flex-direction: column;
+  }
 }
+
 
 /* Large devices (Laptops, upto 992px and above) */
 /* @media (min-width: 769px) and (max-width: 992px) */
 @media (width >=769px) and (width <=992px) {
     /* write code here */
+      html {
+    font-size: 58%;
+  }
+
+  .heroBox {
+    width: 70%;
+    padding: 22rem 0rem;
+  }
+
+  .navlinks {
+    font-size: 1.8rem;
+    justify-content: space-evenly;
+  }
+
+  .cardHeader h1 {
+    font-size: 3.2rem;
+  }
+
+  .menuBody {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
+
 
 /* X-Large devices (large desktops, upto 1200px and above) */
 /* @media (min-width: 993px) and (max-width: 1200px) */
 @media (width >=993px) and (width <=1200px) {
     /* write code here */
+      html {
+    font-size: 60%;
+  }
+
+  .heroBox {
+    width: 65%;
+  }
+
+  .navlinks li {
+    padding: 0 1.5rem;
+  }
+
+  .cardMain {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
 }
 
 /* XX-Large devices (larger desktops, upto 1400px and above) */
 /* @media (min-width: 1200px)  */
 @media (width >=1200px) {
     /* write code here */
+      html {
+    font-size: 62.5%; /* Default scale */
+  }
+
+  .heroBox {
+    width: 60%;
+  }
+
+  .navBar {
+    padding: 1rem 4rem;
+  }
+
+  .galleryBox img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
 }
